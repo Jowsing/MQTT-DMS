@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MQTT-DMS_Example' do
+  pod 'MQTT-DMS', :path => '../'
+
+  target 'MQTT-DMS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
