@@ -32,4 +32,6 @@ TODO: Add long description of the pod here.
 
   s.ios.vendored_libraries = 'Sources/lib/libMQTTKit-dms.a'
   
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64', 'ENABLE_BITCODE' => 'NO' }
+  
 end
