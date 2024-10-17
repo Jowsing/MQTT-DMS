@@ -1,6 +1,6 @@
 # MQTT-DMS
 
-[![CI Status](https://img.shields.io/travis/zhouxin/MQTT-DMS.svg?style=flat)](https://travis-ci.org/zhouxin/MQTT-DMS)
+[![CI Status](https://img.shields.io/travis/Jowsing/MQTT-DMS.svg?style=flat)](https://travis-ci.org/Jowsing/MQTT-DMS)
 [![Version](https://img.shields.io/cocoapods/v/MQTT-DMS.svg?style=flat)](https://cocoapods.org/pods/MQTT-DMS)
 [![License](https://img.shields.io/cocoapods/l/MQTT-DMS.svg?style=flat)](https://cocoapods.org/pods/MQTT-DMS)
 [![Platform](https://img.shields.io/cocoapods/p/MQTT-DMS.svg?style=flat)](https://cocoapods.org/pods/MQTT-DMS)
@@ -22,7 +22,7 @@ pod 'MQTT-DMS'
 
 ## Author
 
-zhouxin, xinzhou@wisedu.com
+Jowsing, jowsing169@gmail.com
 
 ## License
 

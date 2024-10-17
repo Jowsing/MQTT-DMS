@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MQTT-DMS'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of MQTT-DMS.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhouxin/MQTT-DMS'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/Jowsing/MQTT-DMS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhouxin' => 'xinzhou@wisedu.com' }
-  s.source           = { :git => 'https://github.com/zhouxin/MQTT-DMS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Jowsing' => 'jowsing169@gmail.com' }
+  s.source           = { :git => 'https://github.com/Jowsing/MQTT-DMS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MQTT-DMS/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MQTT-DMS' => ['MQTT-DMS/Assets/*.png']
-  # }
+  s.source_files = 'Sources/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.vendored_libraries = 'Sources/lib/libMQTTKit-dms.a'
+  
 end

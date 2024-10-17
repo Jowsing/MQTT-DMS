@@ -2,11 +2,12 @@
 //  XViewController.m
 //  MQTT-DMS
 //
-//  Created by zhouxin on 10/17/2024.
-//  Copyright (c) 2024 zhouxin. All rights reserved.
+//  Created by Jowsing on 10/17/2024.
+//  Copyright (c) 2024 Jowsing. All rights reserved.
 //
 
 #import "XViewController.h"
+#import <MQTT-DMS/DMS.h>
 
 @interface XViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    DMS* dms = [DMS dmsWithClientId:@"test"];
+    
 }
 
 - (void)didReceiveMemoryWarning
